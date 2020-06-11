@@ -1,7 +1,5 @@
 // Creating a stripe client
 
-// Set your publishable key: remember to change this to your live publishable key in production
-// See your keys here: https://dashboard.stripe.com/account/apikeys
 var stripe = Stripe('pk_test_51GsE6hG468jMlYSeIK1Sa6WfUaj4LXdGxCdvJmIjVcnzmFrDe8FPoeUzNMEtmG1j8AM8vxPVgMyaR4Cl0V6VVo3z00zhloH8sR');
 var elements = stripe.elements();
 

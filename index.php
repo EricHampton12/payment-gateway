@@ -19,7 +19,8 @@
                 <input type="text" name="last_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name">
                 <input type="email" name="email" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
                 <input type="text" name="billing_address" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Billing Address">
-                <input type="text" name="state" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="State">
+                <input type="text" name="city" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="City">
+                <input type="abr" name="state" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="State">
                 <input type="text" name="country" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Country">
                 <!-- <label for="card-element">
                     Credit or debit card
