@@ -1,9 +1,7 @@
 <?php
 
 require_once('vendor/autoload.php');
-require_once('config/db.php');
-require_once('lib/pdo_db.php');
-require_once('models/Customer.php');
+
 
 \Stripe\Stripe::setApiKey('sk_test_51GsE6hG468jMlYSeFKa9nxErCZ9oJCCryIPOTcVUDRCM3DWV0q6NScWa2LNv11lVVUMeORoF4ShWvPsbj7AknXRr00JDZe1SZD');
 
@@ -39,14 +37,6 @@ $customerData = [
     'last_name' => $last_name,
     'email' => $email
 ];
-
-// Instantiate Customer
-$customer = new Customer();
-
-// add customer method
-
-$customer->addCustomer($customerData);
-
 
 //print_r($charge);
 

@@ -4,6 +4,7 @@ if(!empty($_GET['tid'] && !empty($_GET['product']))) {
 
     $tid = $GET['tid'];
     $tid = $GET['product'];
+    $name = $GET['first_name'];
 } else {
     header('Location: index.php');
 }
@@ -21,9 +22,10 @@ if(!empty($_GET['tid'] && !empty($_GET['product']))) {
     </head>
     <body>
         <div class="container mt-4">
-            <h2>Thank you for purchasing <?php echo $product; ?></h2>
+            <h2>Thank You</h2>
             <hr>
             <p>Your transaction for  <?php echo $tid; ?> is successful</p>
+            
             <p>Check your email for more info</p>
             <p><a href="index.php" class="btn btn-light mt-2">Go Back</a>
         </div>
